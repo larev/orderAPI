@@ -47,13 +47,13 @@
 
 Create order:
 
-/order POST
+/order POST Basic Authentication
 
 `{"status":boolean,"orderId":long ,"message":String"}`
 
 Get order:
 
-/order/{orderId} GET
+/order/{orderId} GET Basic Authentication
 
 orderId: long
 
@@ -61,7 +61,7 @@ orderId: long
 
 Get orders:
 
-/orders/{page}/{size} GET
+/orders/{page}/{size} GET Basic Authentication
 
 page: int
 
